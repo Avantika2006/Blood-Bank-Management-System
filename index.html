@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HemoTrack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #141229;
+      color: #fff;
+    }
+
+    nav {
+      background: #1b1b2f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    nav .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .hero {
+        background: url('home.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 16px;
+      background: #0b0b1e;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .about {
+      display: flex;
+      padding: 60px;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      max-width: 300px;
+      border-radius: 8px;
+    }
+
+    .about p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .join {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+    }
+
+    .join .form-box {
+      background: #2e2459;
+      padding: 30px;
+      border-radius: 10px;
+      width: 400px;
+    }
+
+    .join .form-box input {
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .join .form-box button {
+      padding: 12px;
+      background: #0b0b1e;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .join h2 {
+      font-size: 28px;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">HemoTrack</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Doner List</a></li>
+      <li><a href="#">Search Doner</a></li>
+      <li><a href="#">Admin</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Medical services that you can trust<br>Let’s save lives together</h1>
+      <button>Join Us</button>
+    </div>
+  </section>
+
+  <section class="about">
+    <img src="about.png" alt="About Image">
+    <p>At HemoTrack, we are committed to revolutionizing the way blood donation and transfusion services are managed. Built with precision, care, and cutting-edge technology, HemoTrack is a comprehensive blood bank management system designed to ensure safety, efficiency, and transparency at every step. Whether you are a donor, a hospital, or a healthcare professional, HemoTrack connects you to a trusted network where life-saving blood is always within reach. Our platform offers real-time tracking of inventory, streamlined donor registrations, request processing, and detailed analytics to support critical decision-making. Join us in creating a future where blood donation is smarter, faster, and more impactful.</p>
+  </section>
+
+  <section class="join">
+    <h2>Join us to create a better future!</h2>
+    <div class="form-box">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Phone Number">
+      <button>Join Us</button>
+    </div>
+  </section>
+</body>
+</html>
